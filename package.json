@@ -1,0 +1,33 @@
+{
+  "name": "@gravity-vui/monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "8.0.4",
+    "@storybook/addon-interactions": "8.0.4",
+    "@storybook/addon-links": "8.0.4",
+    "@storybook/vue3": "8.0.4",
+    "@storybook/vue3-vite": "8.0.4",
+    "@vitejs/plugin-vue": "5.0.4",
+    "storybook": "8.0.4",
+    "typescript": "5.2.2",
+    "vite": "5.2.0",
+    "vue-tsc": "2.0.6"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

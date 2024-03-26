@@ -1,0 +1,7 @@
+{
+  "name": "@gravity-vui/uikit",
+  "version": "0.0.0",
+  "dependencies": {
+    "sass": "1.72.0"
+  }
+}
